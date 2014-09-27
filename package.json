@@ -1,6 +1,6 @@
 {
   "name": "reave",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Scripts to fetch and simplify blog content.",
   "keywords": [
     "cli",
