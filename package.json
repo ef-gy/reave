@@ -1,0 +1,32 @@
+{
+  "name": "reave",
+  "version": "0.0.1",
+  "description": "Scripts to fetch and simplify blog content.",
+  "keywords": [
+    "cli",
+    "blog",
+    "medium"
+  ],
+  "author": {
+    "name": "Magnus Deininger",
+    "email": "magnus@ef.gy",
+    "url": "https://ef.gy/"
+  },
+  "bin": {
+    "reave": "bin/reave.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ef-gy/reave"
+  },
+  "dependencies": {
+    "cheerio": "~0.17.0",
+    "minimist": "~1.1.0"
+  },
+  "license": "MIT",
+  "preferGlobal": true,
+  "directories": {
+    "lib": "lib",
+    "bin": "bin"
+  }
+}
