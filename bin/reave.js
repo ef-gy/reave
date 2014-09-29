@@ -2,4 +2,4 @@
 
 var reave = require('../lib/reave.js');
 
-reave.medium(process.argv[2], console.log);
+reave[process.argv[2]](process.argv[3], console.log);
